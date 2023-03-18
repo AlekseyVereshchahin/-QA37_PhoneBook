@@ -18,12 +18,12 @@ public class HelperBase {
         element.click();
         element.clear();
         if(text!=null){
-            element.sendKeys();
+            element.sendKeys(text);
         }
     }
     public void click(By locator){
         WebElement element = wd.findElement(locator);
-        element.clear();
+        element.click();
     }
 
     public boolean isElementPresent(By locator){
