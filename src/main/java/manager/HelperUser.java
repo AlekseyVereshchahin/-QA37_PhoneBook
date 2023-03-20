@@ -8,27 +8,28 @@ public class HelperUser extends HelperBase {
     public HelperUser(WebDriver wd) {
         super(wd);
     }
-    public void openLoginRegistrationForm(){
+
+    public void openLoginRegistrationForm() {
 //        WebElement loginTab = wd.findElement(By.cssSelector("a[href='/login']"));
 //        loginTab.click();
         click(By.cssSelector("a[href='/login']"));
     }
 
-    public void fillLoginRegistrationForm(String email, String password){
+    public void fillLoginRegistrationForm(String email, String password) {
 //        WebElement emailInput = wd.findElement(By.name("email"));
 //        emailInput.click();
 //        emailInput.clear();
 //        emailInput.sendKeys(email);
-        type(By.name("email"),email);
+        type(By.name("email"), email);
 
 //        WebElement passwordInput = wd.findElement(By.xpath("//input[last()]"));
 //        passwordInput.click();
 //        passwordInput.clear();
 //        emailInput.sendKeys(password);
-        type(By.xpath("//input[last()]"),password);
+        type(By.xpath("//input[last()]"), password);
     }
 
-    public void submitLogin(){
+    public void submitLogin() {
         click(By.xpath("//button[text()='Login']"));
     }
 
@@ -37,7 +38,7 @@ public class HelperUser extends HelperBase {
         return isElementPresent(By.xpath("//button[text()='Sign Out']"));
     }
 
-    public void logout(){
+    public void logout() {
         click(By.xpath("//button[text() = 'Sign Out']"));
     }
 
