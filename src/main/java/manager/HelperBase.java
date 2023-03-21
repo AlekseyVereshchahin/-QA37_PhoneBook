@@ -30,4 +30,12 @@ public class HelperBase {
         List<WebElement> list = wd.findElements(locator);
         return list.size()>0;
     }
+
+    public void pause(int millis){
+        try {Thread.sleep(millis);
+        }
+        catch (InterruptedException e){
+            e.printStackTrace();
+        }
+    }
 }
