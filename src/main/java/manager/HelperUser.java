@@ -49,17 +49,7 @@ public class HelperUser extends HelperBase {
     }
 
 
-    public boolean isAlertPresent(String message) {
-        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
-        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-        if (alert != null && alert.getText().contains(message)) {
-            //pause(3000);
-            alert.accept();
-            return true;
-        }
 
-        return false;
-    }
 //***************REGISTRATION***************
     public void fillRegistrationForm(User user) {
         type(By.name("email"), user.getEmail());
@@ -77,9 +67,18 @@ public class HelperUser extends HelperBase {
         return res;
     }
 
+
+
 //    public boolean isNoContactsHereDisplayed() {
 //        WebDriverWait wait = new WebDriverWait(wd,Duration.ofSeconds(5));
 //        boolean res =wait.until(ExpectedConditions.textToBePresentInElement(wd.findElement(By.cssSelector(".contact-page_message__2qafk>h1")),"No Contacts here!"));
 //        return res;
 //    }
+
+    public void login(User user) {
+        openLoginRegistrationForm();
+        fillRegistrationForm(user);
+        submitLogin();
+
+    }
 }

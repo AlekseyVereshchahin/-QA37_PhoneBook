@@ -1,9 +1,13 @@
 package manager;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 
 public class HelperBase {
@@ -38,4 +42,31 @@ public class HelperBase {
             e.printStackTrace();
         }
     }
+
+    public boolean isAlertPresent(String message) {
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
+        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+        System.out.println(alert.getText());
+        if (alert != null && alert.getText().equals(message)) {
+            pause(3000);
+            alert.accept();
+            return true;
+        }
+
+        return false;
+    }
+
+    public boolean isAlertPresent2(String message) {
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
+        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+        System.out.println(alert.getText());
+        if(alert != null && alert.getText().contains(message)){
+            pause(3000);
+            alert.accept();
+            return true;
+        }
+        return false;
+    }
+
+
 }

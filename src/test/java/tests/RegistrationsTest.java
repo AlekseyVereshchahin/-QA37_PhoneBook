@@ -22,7 +22,7 @@ public class RegistrationsTest extends TestBase {
         int i = random.nextInt(1000); //give random number
         int z = (int) (System.currentTimeMillis() / 1000) / 3600; //give random number
 
-        User user = new User().setEmail("pop" + i + "@gmail.com").setPassword("Pop12345$");
+        User user = new User().withEmail("pop" + i + "@gmail.com").withPassword("Pop12345$");
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
@@ -34,7 +34,7 @@ public class RegistrationsTest extends TestBase {
 
     @Test
     public void registrationWrongEmail() {
-       User user = new User().setEmail("popgmail.com").setPassword("Pop12345$");
+       User user = new User().withEmail("popgmail.com").withPassword("Pop12345$");
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().submitRegistration();
@@ -44,7 +44,7 @@ public class RegistrationsTest extends TestBase {
     @Test
     public void registrationWrongPassword() {
 
-        User user = new User().setEmail("pop@gmail.com").setPassword("pop12345$");
+        User user = new User().withEmail("pop@gmail.com").withPassword("pop12345$");
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().submitRegistration();
@@ -54,7 +54,7 @@ public class RegistrationsTest extends TestBase {
     @Test
     public void registrationRegisteredUser() {
 
-        User user = new User().setEmail("qwerty@gmail.com").setPassword("Ff12345$");
+        User user = new User().withEmail("qwerty@gmail.com").withPassword("Ff12345$");
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().submitRegistration();
