@@ -75,6 +75,14 @@ public class HelperUser extends HelperBase {
 //        return res;
 //    }
 
+    public String getMessage(){
+
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".contact-page_message__2qafk>h1"))));
+
+        return wd.findElement(By.cssSelector(".contact-page_message__2qafk>h1")).getText();
+    }
+
     public void login(User user) {
         openLoginRegistrationForm();
         fillRegistrationForm(user);

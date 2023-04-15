@@ -29,6 +29,7 @@ public class RegistrationsTest extends TestBase {
         app.getHelperUser().submitRegistration();
         Assert.assertTrue(app.getHelperUser().isLogged());
         Assert.assertTrue(app.getHelperUser().isContactHereDisplayed());
+        Assert.assertEquals(app.getHelperUser().getMessage(),"No Contacts here!");
 
     }
 

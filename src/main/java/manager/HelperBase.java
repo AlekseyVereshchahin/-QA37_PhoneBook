@@ -1,17 +1,20 @@
 package manager;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import com.google.common.io.Files;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 
 public class HelperBase {
     WebDriver wd;
+    Logger logger = LoggerFactory.getLogger(HelperBase.class);
 
     public HelperBase(WebDriver wd) {
         this.wd = wd;
@@ -21,6 +24,7 @@ public class HelperBase {
         WebElement element = wd.findElement(locator);
         element.click();
         element.clear();
+
         if(text!=null){
             element.sendKeys(text);
         }
@@ -29,6 +33,8 @@ public class HelperBase {
         WebElement element = wd.findElement(locator);
         element.click();
     }
+
+
 
     public boolean isElementPresent(By locator){
         List<WebElement> list = wd.findElements(locator);
@@ -66,6 +72,30 @@ public class HelperBase {
             return true;
         }
         return false;
+    }
+
+    public void getScreen(String link){
+        //screenshot of screen
+        TakesScreenshot takesScreenshot = (TakesScreenshot) wd;
+        File tmp = takesScreenshot.getScreenshotAs(OutputType.FILE);
+        try {
+            Files.copy(tmp,new File(link));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
+
+    public void getScreenElement(String link,By locator){
+        //screenshot of element by locator
+        WebElement element = wd.findElement(locator);
+        File tmp = element.getScreenshotAs(OutputType.FILE);
+
+        try {
+            Files.copy(tmp,new File(link));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
 

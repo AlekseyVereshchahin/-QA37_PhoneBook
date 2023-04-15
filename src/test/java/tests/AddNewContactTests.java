@@ -29,6 +29,7 @@ public class AddNewContactTests extends TestBase {
                 .build();
         app.helperContact().openContactForm();
         app.helperContact().fillContactForm(contact);
+
         app.helperContact().saveContact();
         Assert.assertTrue(app.helperContact().isContactAddedByName(contact.getName()));
         Assert.assertTrue(app.helperContact().isContactAddedByPhone(contact.getPhone()));
@@ -62,6 +63,7 @@ public class AddNewContactTests extends TestBase {
                 .build();
         app.helperContact().openContactForm();
         app.helperContact().fillContactForm(contact);
+        app.helperContact().getScreen("src/test/screenshots/screen.png");
         app.helperContact().saveContact();
         Assert.assertTrue(app.helperContact().isAddPageStillDisplayed());
 

@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
+import java.util.Random;
 
 
 public class HelperContact extends HelperBase{
@@ -28,6 +29,7 @@ public class HelperContact extends HelperBase{
     }
 
     public void saveContact() {
+        getScreenElement("src/test/screenshots/screen-btn.png",By.cssSelector(".add_form__2rsm2>button"));
         click(By.cssSelector(".add_form__2rsm2>button"));
 
     }
@@ -55,4 +57,58 @@ public class HelperContact extends HelperBase{
     public boolean isAddPageStillDisplayed() {
         return isElementPresent(By.cssSelector("a.active[href='/add']"));
     }
+
+    public int removeOneContact() {
+        int before = countOfContacts();
+        logger.info("Number of contacts list before remove is " + before);
+        removeContact();
+        int after = countOfContacts();
+        logger.info("Number of contacts list after remove is " + after);
+        return before-after;
+    }
+
+    private void removeContact() {
+        click(By.cssSelector(".contact-item_card__2SOIM"));
+        click(By.xpath("//button[text()='Remove']"));
+        pause(1000);
+    }
+
+    private int countOfContacts() {
+        return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size();
+    }
+
+    public void removeAllContacts() {
+        while (wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size()!=0){
+            removeContact();
+        }
+
+    }
+
+    public void provideContacts() {
+        if(countOfContacts()<3){
+            for (int i = 0; i < 3; i++) {
+                addOneContact();
+            }
+        }
+    }
+
+    private void addOneContact() {
+        int i = new Random().nextInt(1000)+1000;
+        Contact contact = Contact.builder()
+                .name("Peter"+i)
+                .lastName("Parker")
+                .address("NY")
+                .phone("553285576"+i)
+                .email("peterParker"+i+"@gmail.com")
+                .description("SM")
+                .build();
+        openContactForm();
+        pause(500);
+        fillContactForm(contact);
+        pause(500);
+        saveContact();
+
+    }
+
+
 }
