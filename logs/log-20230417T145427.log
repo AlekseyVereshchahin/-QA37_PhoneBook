@@ -1,0 +1,6 @@
+14:54:35.237 [Test worker] INFO  manager.ApplicationManager - All tests run in Chrome
+14:54:36.350 [Test worker] INFO  manager.ApplicationManager - The link--->https://telranedu.web.app/home
+14:54:36.467 [Test worker] INFO  tests.TestBase - Name of methodregistrationRegisteredUser
+14:54:49.426 [Test worker] INFO  tests.TestBase - Name of methodregistrationSuccess
+14:54:56.916 [Test worker] INFO  tests.TestBase - Name of methodregistrationWrongEmail
+14:55:03.880 [Test worker] INFO  tests.TestBase - Name of methodregistrationWrongPassword

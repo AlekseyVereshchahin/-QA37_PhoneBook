@@ -25,7 +25,7 @@ public class AddNewContactTests extends TestBase {
                 .address("NY")
                 .phone("553285576"+i)
                 .email("peterParker"+i+"@gmail.com")
-                .description("SM")
+                .description("all field")
                 .build();
         app.helperContact().openContactForm();
         app.helperContact().fillContactForm(contact);
@@ -39,7 +39,7 @@ public class AddNewContactTests extends TestBase {
     public void  addContactSuccessRequiredFields(){
         int i= new Random().nextInt(1000)+1000;
         Contact contact = Contact.builder()
-                .name("Peter"+i)
+                .name("PeterRequa"+i)
                 .lastName("Parker")
                 .address("NY")
                 .phone("553285576"+i)
@@ -57,9 +57,10 @@ public class AddNewContactTests extends TestBase {
         Contact contact = Contact.builder()
                 .name("")
                 .lastName("Parker")
-                .address("")
+                .address("NY")
                 .phone("55328557622222")
                 .email("peterParker@gmail.com")
+                .description("empty name")
                 .build();
         app.helperContact().openContactForm();
         app.helperContact().fillContactForm(contact);
@@ -76,6 +77,7 @@ public class AddNewContactTests extends TestBase {
                 .address("")
                 .phone("55328557622222")
                 .email("peterParker@gmail.com")
+                .description("empty address")
                 .build();
         app.helperContact().openContactForm();
         app.helperContact().fillContactForm(contact);
@@ -91,6 +93,7 @@ public class AddNewContactTests extends TestBase {
                 .address("NY")
                 .phone("55328557622222")
                 .email("peterParker@gmail.com")
+                .description("empty lastname")
                 .build();
         app.helperContact().openContactForm();
         app.helperContact().fillContactForm(contact);
@@ -107,6 +110,7 @@ public class AddNewContactTests extends TestBase {
                 .address("NY")
                 .phone("")
                 .email("peterParker@gmail.com")
+                .description("wrong phone")
                 .build();
         app.helperContact().openContactForm();
         app.helperContact().fillContactForm(contact);
@@ -123,11 +127,12 @@ public class AddNewContactTests extends TestBase {
                 .address("NY")
                 .phone("55328557622222")
                 .email("peterParkergmail.com")
+                .description("wrong email")
                 .build();
         app.helperContact().openContactForm();
         app.helperContact().fillContactForm(contact);
         app.helperContact().saveContact();
-        app.getHelperUser().pause(10000);
+
         Assert.assertTrue(app.helperContact().isAlertPresent2("Email not valid"));
         Assert.assertTrue(app.helperContact().isAddPageStillDisplayed());
     }

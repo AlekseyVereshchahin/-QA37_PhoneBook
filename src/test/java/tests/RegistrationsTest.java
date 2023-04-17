@@ -12,6 +12,7 @@ public class RegistrationsTest extends TestBase {
     @BeforeMethod
     public void preCondition() {
         if (app.getHelperUser().isLogged()) {
+            app.getHelperUser().pause(5000);
             app.getHelperUser().logout();
         }
     }

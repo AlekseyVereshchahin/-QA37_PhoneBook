@@ -24,6 +24,7 @@ public class HelperBase {
         WebElement element = wd.findElement(locator);
         element.click();
         element.clear();
+        clearNew(element);
 
         if(text!=null){
             element.sendKeys(text);
@@ -32,6 +33,13 @@ public class HelperBase {
     public void click(By locator){
         WebElement element = wd.findElement(locator);
         element.click();
+    }
+
+    public void clearNew(WebElement element){
+        element.sendKeys(" ");
+        element.sendKeys(Keys.BACK_SPACE);
+
+
     }
 
 
@@ -54,7 +62,7 @@ public class HelperBase {
         Alert alert = wait.until(ExpectedConditions.alertIsPresent());
         System.out.println(alert.getText());
         if (alert != null && alert.getText().equals(message)) {
-            pause(3000);
+            pause(5000);
             alert.accept();
             return true;
         }
@@ -97,6 +105,10 @@ public class HelperBase {
             throw new RuntimeException(e);
         }
     }
+
+
+
+
 
 
 }
