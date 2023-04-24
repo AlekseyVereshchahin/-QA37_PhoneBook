@@ -1,3 +1,0 @@
-14:33:20.183 [Test worker] INFO  manager.ApplicationManager - All tests run in Chrome
-14:33:21.348 [Test worker] INFO  manager.ApplicationManager - The link--->https://telranedu.web.app/home
-14:33:27.828 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongLastName

@@ -103,10 +103,9 @@ public class HelperContact extends HelperBase{
                 .description("SM")
                 .build();
         openContactForm();
-        pause(500);
         fillContactForm(contact);
-        pause(500);
         saveContact();
+        pause(1000);
 
     }
 

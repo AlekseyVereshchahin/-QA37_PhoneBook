@@ -1,5 +1,6 @@
 package tests;
 
+import manager.DataProviderUser;
 import models.Contact;
 import models.User;
 import org.testng.Assert;
@@ -16,35 +17,18 @@ public class AddNewContactTests extends TestBase {
             app.getHelperUser().login(new User().withEmail("qwerty@mail.com").withPassword("Ff12345$"));
         }
     }
-    @Test
-    public void addContactSuccessAllFields(){
-        int i = new Random().nextInt(1000)+1000;
-        Contact contact = Contact.builder()
-                .name("Peter"+i)
-                .lastName("Parker")
-                .address("NY")
-                .phone("553285576"+i)
-                .email("peterParker"+i+"@gmail.com")
-                .description("all field")
-                .build();
+    @Test(dataProvider = "contactSuccess",dataProviderClass = DataProviderUser.class)
+    public void addContactSuccessAllFields(Contact contact){
+        logger.info("Tests run with data: --->"+contact.toString());
         app.helperContact().openContactForm();
         app.helperContact().fillContactForm(contact);
-
         app.helperContact().saveContact();
         Assert.assertTrue(app.helperContact().isContactAddedByName(contact.getName()));
         Assert.assertTrue(app.helperContact().isContactAddedByPhone(contact.getPhone()));
     }
 
-    @Test
-    public void  addContactSuccessRequiredFields(){
-        int i= new Random().nextInt(1000)+1000;
-        Contact contact = Contact.builder()
-                .name("PeterRequa"+i)
-                .lastName("Parker")
-                .address("NY")
-                .phone("553285576"+i)
-                .email("peterParker"+i+"@gmail.com")
-                .build();
+    @Test(dataProvider = "contactSuccess",dataProviderClass = DataProviderUser.class)
+    public void  addContactSuccessRequiredFields(Contact contact){
         app.helperContact().openContactForm();
         app.helperContact().fillContactForm(contact);
         app.helperContact().saveContact();

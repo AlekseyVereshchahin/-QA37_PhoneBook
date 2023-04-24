@@ -15,7 +15,6 @@ public class RemoveContactsTests extends TestBase {
         }
         app.helperContact().provideContacts();//if list<3 --> add 3 contacts
 
-
     }
 
     @Test
@@ -28,7 +27,5 @@ public class RemoveContactsTests extends TestBase {
     public void removeAllContacts(){
         app.helperContact().removeAllContacts();
         Assert.assertEquals(app.getHelperUser().getMessage(),"No Contacts here!");
-
-
     }
 }

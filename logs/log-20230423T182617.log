@@ -1,0 +1,85 @@
+18:26:23.673 [Test worker] INFO  manager.ApplicationManager - All tests run in Chrome
+18:26:25.438 [Test worker] INFO  manager.ApplicationManager - The link--->https://telranedu.web.app/home
+18:26:25.481 [Test worker] INFO  manager.ListenerWD - Before FindElementS --- By.xpath: //button[text()='Sign Out']
+18:26:30.548 [Test worker] INFO  manager.ListenerWD - After FindElement---By.xpath: //button[text()='Sign Out']
+18:26:30.554 [Test worker] INFO  manager.ListenerWD - List of elements 0
+18:26:30.557 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/login']
+18:26:30.622 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: a[href='/login']
+18:26:30.642 [Test worker] INFO  manager.ListenerWD - Location of element---(1426, 34)
+18:26:30.756 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.name: email
+18:26:30.822 [Test worker] INFO  manager.ListenerWD - After FindElement---By.name: email
+18:26:30.865 [Test worker] INFO  manager.ListenerWD - Location of element---(568, 250)
+18:26:31.268 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.xpath: //input[last()]
+18:26:31.320 [Test worker] INFO  manager.ListenerWD - After FindElement---By.xpath: //input[last()]
+18:26:31.339 [Test worker] INFO  manager.ListenerWD - Location of element---(568, 320)
+18:26:31.623 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.xpath: //button[text()='Login']
+18:26:31.668 [Test worker] INFO  manager.ListenerWD - After FindElement---By.xpath: //button[text()='Login']
+18:26:31.690 [Test worker] INFO  manager.ListenerWD - Location of element---(568, 390)
+18:26:31.796 [Test worker] INFO  tests.TestBase - Name of methodaddContactSuccessRequiredFields
+18:26:31.860 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/add']
+18:26:32.976 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: a[href='/add']
+18:26:32.995 [Test worker] INFO  manager.ListenerWD - Location of element---(1191, 34)
+18:26:33.093 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: [placeholder='Name']
+18:26:33.146 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: [placeholder='Name']
+18:26:33.166 [Test worker] INFO  manager.ListenerWD - Location of element---(240, 165)
+18:26:33.457 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: [placeholder='Last Name']
+18:26:33.505 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: [placeholder='Last Name']
+18:26:33.529 [Test worker] INFO  manager.ListenerWD - Location of element---(240, 238)
+18:26:33.870 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: [placeholder='Phone']
+18:26:33.924 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: [placeholder='Phone']
+18:26:33.945 [Test worker] INFO  manager.ListenerWD - Location of element---(240, 312)
+18:26:34.295 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: [placeholder='email']
+18:26:34.341 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: [placeholder='email']
+18:26:34.359 [Test worker] INFO  manager.ListenerWD - Location of element---(240, 385)
+18:26:34.669 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: [placeholder='Address']
+18:26:34.714 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: [placeholder='Address']
+18:26:34.731 [Test worker] INFO  manager.ListenerWD - Location of element---(240, 459)
+18:26:34.970 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: [placeholder='description']
+18:26:35.010 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: [placeholder='description']
+18:26:35.026 [Test worker] INFO  manager.ListenerWD - Location of element---(240, 533)
+18:26:35.256 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: .add_form__2rsm2>button
+18:26:35.293 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: .add_form__2rsm2>button
+18:26:35.311 [Test worker] INFO  manager.ListenerWD - Location of element---(242, 606)
+18:26:35.533 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: .add_form__2rsm2>button
+18:26:35.562 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: .add_form__2rsm2>button
+18:26:35.575 [Test worker] INFO  manager.ListenerWD - Location of element---(242, 606)
+18:26:35.626 [Test worker] INFO  manager.ListenerWD - Before FindElementS --- By.cssSelector: h2
+18:26:36.273 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: h2
+18:26:36.273 [Test worker] INFO  manager.ListenerWD - List of elements 7
+18:26:36.299 [Test worker] INFO  manager.ListenerWD - Before FindElementS --- By.cssSelector: h3
+18:26:36.377 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: h3
+18:26:36.377 [Test worker] INFO  manager.ListenerWD - List of elements 7
+18:26:36.400 [Test worker] INFO  tests.TestBase - Name of methodaddContactSuccessRequiredFields
+18:26:36.401 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/add']
+18:26:36.426 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: a[href='/add']
+18:26:36.438 [Test worker] INFO  manager.ListenerWD - Location of element---(1204, 34)
+18:26:36.490 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: [placeholder='Name']
+18:26:36.512 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: [placeholder='Name']
+18:26:36.526 [Test worker] INFO  manager.ListenerWD - Location of element---(240, 165)
+18:26:36.726 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: [placeholder='Last Name']
+18:26:36.750 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: [placeholder='Last Name']
+18:26:36.764 [Test worker] INFO  manager.ListenerWD - Location of element---(240, 238)
+18:26:36.963 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: [placeholder='Phone']
+18:26:37.004 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: [placeholder='Phone']
+18:26:37.017 [Test worker] INFO  manager.ListenerWD - Location of element---(240, 312)
+18:26:37.246 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: [placeholder='email']
+18:26:37.267 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: [placeholder='email']
+18:26:37.283 [Test worker] INFO  manager.ListenerWD - Location of element---(240, 385)
+18:26:37.539 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: [placeholder='Address']
+18:26:37.561 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: [placeholder='Address']
+18:26:37.576 [Test worker] INFO  manager.ListenerWD - Location of element---(240, 459)
+18:26:37.780 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: [placeholder='description']
+18:26:37.804 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: [placeholder='description']
+18:26:37.821 [Test worker] INFO  manager.ListenerWD - Location of element---(240, 533)
+18:26:37.998 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: .add_form__2rsm2>button
+18:26:38.026 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: .add_form__2rsm2>button
+18:26:38.041 [Test worker] INFO  manager.ListenerWD - Location of element---(242, 606)
+18:26:38.142 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: .add_form__2rsm2>button
+18:26:38.165 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: .add_form__2rsm2>button
+18:26:38.176 [Test worker] INFO  manager.ListenerWD - Location of element---(242, 606)
+18:26:38.222 [Test worker] INFO  manager.ListenerWD - Before FindElementS --- By.cssSelector: h2
+18:26:39.344 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: h2
+18:26:39.345 [Test worker] INFO  manager.ListenerWD - List of elements 8
+18:26:39.428 [Test worker] INFO  manager.ListenerWD - Before FindElementS --- By.cssSelector: h3
+18:26:39.558 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: h3
+18:26:39.625 [Test worker] INFO  manager.ListenerWD - List of elements 8

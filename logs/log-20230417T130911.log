@@ -1,9 +1,0 @@
-13:09:17.696 [Test worker] INFO  manager.ApplicationManager - All tests run in Chrome
-13:09:18.657 [Test worker] INFO  manager.ApplicationManager - The link--->https://telranedu.web.app/home
-13:09:24.480 [Test worker] INFO  tests.TestBase - Name of methodaddContactSuccessAllFields
-13:09:27.990 [Test worker] INFO  tests.TestBase - Name of methodaddContactSuccessRequiredFields
-13:09:29.793 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongAddress
-13:09:30.969 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongEmail
-13:09:45.143 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongLastName
-13:09:46.087 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongName
-13:09:46.622 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongPhone
