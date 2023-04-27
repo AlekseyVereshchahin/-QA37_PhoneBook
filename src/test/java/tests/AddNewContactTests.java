@@ -1,10 +1,12 @@
 package tests;
 
+import manager.DataProviderContact;
 import manager.DataProviderUser;
 import models.Contact;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.util.Random;
@@ -17,7 +19,7 @@ public class AddNewContactTests extends TestBase {
             app.getHelperUser().login(new User().withEmail("qwerty@mail.com").withPassword("Ff12345$"));
         }
     }
-    @Test(dataProvider = "contactSuccess",dataProviderClass = DataProviderUser.class)
+    @Test(dataProvider = "contactSuccess",dataProviderClass = DataProviderContact.class)
     public void addContactSuccessAllFields(Contact contact){
         logger.info("Tests run with data: --->"+contact.toString());
         app.helperContact().openContactForm();
@@ -27,7 +29,17 @@ public class AddNewContactTests extends TestBase {
         Assert.assertTrue(app.helperContact().isContactAddedByPhone(contact.getPhone()));
     }
 
-    @Test(dataProvider = "contactSuccess",dataProviderClass = DataProviderUser.class)
+    @Test(dataProvider = "contactCSV",dataProviderClass = DataProviderContact.class)
+    public void addContactSuccessAllFieldsCSV(Contact contact){
+        logger.info("Tests run with data: --->"+contact.toString());
+        app.helperContact().openContactForm();
+        app.helperContact().fillContactForm(contact);
+        app.helperContact().saveContact();
+        Assert.assertTrue(app.helperContact().isContactAddedByName(contact.getName()));
+        Assert.assertTrue(app.helperContact().isContactAddedByPhone(contact.getPhone()));
+    }
+
+    @Test(dataProvider = "contactSuccess",dataProviderClass = DataProviderContact.class)
     public void  addContactSuccessRequiredFields(Contact contact){
         app.helperContact().openContactForm();
         app.helperContact().fillContactForm(contact);
@@ -86,16 +98,8 @@ public class AddNewContactTests extends TestBase {
 
     }
 
-    @Test
-    public void addNewContactWrongPhone(){
-        Contact contact = Contact.builder()
-                .name("Peter")
-                .lastName("Parker")
-                .address("NY")
-                .phone("")
-                .email("peterParker@gmail.com")
-                .description("wrong phone")
-                .build();
+    @Test(dataProvider="contactWrongPhone",dataProviderClass = DataProviderContact.class)
+    public void addNewContactWrongPhone(Contact contact){
         app.helperContact().openContactForm();
         app.helperContact().fillContactForm(contact);
         app.helperContact().saveContact();

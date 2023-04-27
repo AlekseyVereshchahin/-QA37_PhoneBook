@@ -1,0 +1,42 @@
+17:52:25.749 [Test worker] INFO  manager.ApplicationManager - All tests run in Chrome
+17:52:27.716 [Test worker] INFO  manager.ApplicationManager - The link--->https://telranedu.web.app/home
+17:52:27.776 [Test worker] INFO  tests.TestBase - Name of methodloginSuccessModel_DP
+17:52:27.780 [Test worker] INFO  manager.ListenerWD - Before FindElementS --- By.xpath: //button[text()='Sign Out']
+17:52:32.810 [Test worker] INFO  manager.ListenerWD - After FindElement---By.xpath: //button[text()='Sign Out']
+17:52:32.816 [Test worker] INFO  manager.ListenerWD - List of elements 0
+17:52:32.829 [Test worker] INFO  tests.TestBase - Start test 'loginSuccessModel'
+17:52:32.830 [Test worker] INFO  tests.TestBase - Test data --> User{, email='qwerty@gmail.com', password='Ff12345$'}
+17:52:32.831 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/login']
+17:52:32.891 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: a[href='/login']
+17:52:32.932 [Test worker] INFO  manager.ListenerWD - Location of element---(1426, 34)
+17:52:33.030 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.name: email
+17:52:33.072 [Test worker] INFO  manager.ListenerWD - After FindElement---By.name: email
+17:52:33.094 [Test worker] INFO  manager.ListenerWD - Location of element---(568, 250)
+17:52:33.354 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.xpath: //input[last()]
+17:52:33.388 [Test worker] INFO  manager.ListenerWD - After FindElement---By.xpath: //input[last()]
+17:52:33.400 [Test worker] INFO  manager.ListenerWD - Location of element---(568, 320)
+17:52:33.597 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.xpath: //button[text()='Login']
+17:52:33.630 [Test worker] INFO  manager.ListenerWD - After FindElement---By.xpath: //button[text()='Login']
+17:52:33.649 [Test worker] INFO  manager.ListenerWD - Location of element---(568, 390)
+17:52:33.713 [Test worker] INFO  manager.ListenerWD - Before FindElementS --- By.xpath: //button[text()='Sign Out']
+17:52:34.845 [Test worker] INFO  manager.ListenerWD - After FindElement---By.xpath: //button[text()='Sign Out']
+17:52:34.845 [Test worker] INFO  manager.ListenerWD - List of elements 0
+17:52:34.853 [Test worker] INFO  tests.TestBase - Name of methodloginSuccessModel_DP
+17:52:34.855 [Test worker] INFO  manager.ListenerWD - Before FindElementS --- By.xpath: //button[text()='Sign Out']
+17:52:34.890 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+17:52:34.890 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (3cef60b7b1093f5188048ed2e60d9af4)
+17:52:34.891 [Test worker] INFO  manager.ListenerWD - **********
+17:52:34.891 [Test worker] INFO  manager.ListenerWD - Method method----findElements
+17:52:34.891 [Test worker] INFO  manager.ListenerWD - **********
+17:52:34.892 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+17:52:34.892 [Test worker] INFO  manager.ListenerWD - **********
+17:52:34.896 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=112.0.5615.138): Wrong email or password
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3cef60b7b1093f5188048ed2e60d9af4, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:52886}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52886/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3cef60b7b1093f5188048ed2e60d9af4
+17:52:34.897 [Test worker] INFO  manager.ListenerWD - **********
+17:52:34.913 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1895.png
