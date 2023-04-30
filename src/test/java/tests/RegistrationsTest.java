@@ -49,11 +49,12 @@ public class RegistrationsTest extends TestBase {
     }
 
     @Test
-    public void registrationWrongPassword() {
+    public void registrationWrongPassword(){
 
         User user = new User().withEmail("pop@gmail.com").withPassword("pop12345$");
+        logger.info("Tests run with data: --->"+user.toString());
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillRegistrationForm(user);
+        app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitRegistration();
         Assert.assertTrue(app.getHelperUser().isAlertPresent("Wrong email or password format\n" +
                 "            Email must contains one @ and minimum 2 symbols after last dot\n" +
@@ -61,6 +62,10 @@ public class RegistrationsTest extends TestBase {
                 "            Password must contain at least one lowercase letter!\n" +
                 "            Password must contain at least one digit!\n" +
                 "            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!"));
+
+        // Assert.assertTrue(app.getHelperUser().isAlertPresent2("Wrong email or password format"));
+
+
     }
 
     @Test
