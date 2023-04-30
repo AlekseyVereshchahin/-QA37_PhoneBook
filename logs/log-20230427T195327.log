@@ -1,0 +1,18 @@
+19:53:30.653 [Test worker] INFO  manager.ApplicationManager - All tests run in Chrome
+19:53:32.374 [Test worker] INFO  manager.ApplicationManager - The link--->https://telranedu.web.app/home
+19:53:32.447 [Test worker] INFO  tests.TestBase - Name of methodregistrationWrongEmail
+19:53:32.452 [Test worker] INFO  manager.ListenerWD - Before FindElementS --- By.xpath: //button[text()='Sign Out']
+19:53:37.484 [Test worker] INFO  manager.ListenerWD - After FindElement---By.xpath: //button[text()='Sign Out']
+19:53:37.489 [Test worker] INFO  manager.ListenerWD - List of elements 0
+19:53:37.493 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/login']
+19:53:37.537 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: a[href='/login']
+19:53:37.562 [Test worker] INFO  manager.ListenerWD - Location of element---(1426, 34)
+19:53:37.633 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.name: email
+19:53:37.700 [Test worker] INFO  manager.ListenerWD - After FindElement---By.name: email
+19:53:37.714 [Test worker] INFO  manager.ListenerWD - Location of element---(568, 250)
+19:53:37.939 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.xpath: //input[last()]
+19:53:37.970 [Test worker] INFO  manager.ListenerWD - After FindElement---By.xpath: //input[last()]
+19:53:37.980 [Test worker] INFO  manager.ListenerWD - Location of element---(568, 320)
+19:53:38.163 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.xpath: //button[text()='Registration']
+19:53:38.193 [Test worker] INFO  manager.ListenerWD - After FindElement---By.xpath: //button[text()='Registration']
+19:53:38.207 [Test worker] INFO  manager.ListenerWD - Location of element---(818, 390)
