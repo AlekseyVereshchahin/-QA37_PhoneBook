@@ -1,0 +1,402 @@
+19:37:14.411 [Test worker] INFO  manager.ApplicationManager - All tests run in Chrome
+19:37:15.798 [Test worker] INFO  manager.ApplicationManager - The link--->https://telranedu.web.app/home
+19:37:15.828 [Test worker] INFO  manager.ListenerWD - Before FindElementS --- By.xpath: //button[text()='Sign Out']
+19:37:20.886 [Test worker] INFO  manager.ListenerWD - After FindElement---By.xpath: //button[text()='Sign Out']
+19:37:20.887 [Test worker] INFO  manager.ListenerWD - List of elements 0
+19:37:20.887 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/login']
+19:37:20.926 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: a[href='/login']
+19:37:20.944 [Test worker] INFO  manager.ListenerWD - Location of element---(1426, 34)
+19:37:21.024 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.name: email
+19:37:21.059 [Test worker] INFO  manager.ListenerWD - After FindElement---By.name: email
+19:37:21.074 [Test worker] INFO  manager.ListenerWD - Location of element---(568, 250)
+19:37:21.313 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.xpath: //input[last()]
+19:37:21.346 [Test worker] INFO  manager.ListenerWD - After FindElement---By.xpath: //input[last()]
+19:37:21.357 [Test worker] INFO  manager.ListenerWD - Location of element---(568, 320)
+19:37:21.542 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.xpath: //button[text()='Login']
+19:37:21.576 [Test worker] INFO  manager.ListenerWD - After FindElement---By.xpath: //button[text()='Login']
+19:37:21.588 [Test worker] INFO  manager.ListenerWD - Location of element---(568, 390)
+19:37:21.668 [Test worker] INFO  tests.TestBase - Name of methodaddContactSuccessAllFields
+19:37:21.671 [Test worker] INFO  tests.TestBase - Tests run with data: --->Contact(name=Peter, lastName=Parker, email=peterParker@gmail.com, address=NY, phone=553285576222, description=all field)
+19:37:21.671 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/add']
+19:37:22.640 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: a[href='/add']
+19:37:22.653 [Test worker] INFO  manager.ListenerWD - Location of element---(1191, 34)
+19:37:22.720 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: [placeholder='Name']
+19:37:22.751 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: [placeholder='Name']
+19:37:22.762 [Test worker] INFO  manager.ListenerWD - Location of element---(240, 165)
+19:37:22.926 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: [placeholder='Last Name']
+19:37:22.956 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: [placeholder='Last Name']
+19:37:22.969 [Test worker] INFO  manager.ListenerWD - Location of element---(240, 238)
+19:37:23.143 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: [placeholder='Phone']
+19:37:23.171 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: [placeholder='Phone']
+19:37:23.187 [Test worker] INFO  manager.ListenerWD - Location of element---(240, 312)
+19:37:23.373 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: [placeholder='email']
+19:37:23.400 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: [placeholder='email']
+19:37:23.410 [Test worker] INFO  manager.ListenerWD - Location of element---(240, 385)
+19:37:23.610 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: [placeholder='Address']
+19:37:23.639 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: [placeholder='Address']
+19:37:23.650 [Test worker] INFO  manager.ListenerWD - Location of element---(240, 459)
+19:37:23.821 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: [placeholder='description']
+19:37:23.844 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: [placeholder='description']
+19:37:23.857 [Test worker] INFO  manager.ListenerWD - Location of element---(240, 533)
+19:37:24.046 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: .add_form__2rsm2>button
+19:37:24.076 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: .add_form__2rsm2>button
+19:37:24.089 [Test worker] INFO  manager.ListenerWD - Location of element---(242, 606)
+19:37:24.305 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: .add_form__2rsm2>button
+19:37:24.367 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:37:24.368 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (85f40968f271e7af563b9aa2830a6b7a)
+19:37:24.368 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.369 [Test worker] INFO  manager.ListenerWD - Method method----findElement
+19:37:24.369 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.369 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:37:24.371 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.376 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.cssSelector: .add_form__2rsm2>button
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: driver.version: RemoteWebDriver
+19:37:24.377 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.377 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1129.png
+19:37:24.427 [Test worker] INFO  tests.TestBase - Name of methodaddContactSuccessAllFields
+19:37:24.430 [Test worker] INFO  tests.TestBase - Tests run with data: --->Contact(name=PeterRequa, lastName=Parker, email=peterParkerReq@gmail.com, address=NY, phone=553285333576, description=null)
+19:37:24.432 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/add']
+19:37:24.442 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:37:24.442 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (85f40968f271e7af563b9aa2830a6b7a)
+19:37:24.442 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.443 [Test worker] INFO  manager.ListenerWD - Method method----findElement
+19:37:24.443 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.443 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:37:24.443 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.443 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f40968f271e7af563b9aa2830a6b7a, findElement {using=css selector, value=a[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:62709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62709/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f40968f271e7af563b9aa2830a6b7a
+19:37:24.444 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.444 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1198.png
+19:37:24.458 [Test worker] INFO  tests.TestBase - Name of methodaddContactSuccessAllFieldsCSV
+19:37:24.459 [Test worker] INFO  tests.TestBase - Tests run with data: --->Contact(name=Peter, lastName=Parker, email=peterParker@gmail.com, address=NY, phone=553285576222, description=move)
+19:37:24.459 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/add']
+19:37:24.470 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:37:24.470 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (85f40968f271e7af563b9aa2830a6b7a)
+19:37:24.470 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.473 [Test worker] INFO  manager.ListenerWD - Method method----findElement
+19:37:24.473 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.473 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:37:24.473 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.474 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f40968f271e7af563b9aa2830a6b7a, findElement {using=css selector, value=a[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:62709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62709/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f40968f271e7af563b9aa2830a6b7a
+19:37:24.474 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.474 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1433.png
+19:37:24.508 [Test worker] INFO  tests.TestBase - Name of methodaddContactSuccessAllFieldsCSV
+19:37:24.509 [Test worker] INFO  tests.TestBase - Tests run with data: --->Contact(name=Molly, lastName=Parker, email=mollyParker@gmail.com, address=NY, phone=55328557632, description=move)
+19:37:24.510 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/add']
+19:37:24.541 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:37:24.542 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (85f40968f271e7af563b9aa2830a6b7a)
+19:37:24.542 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.542 [Test worker] INFO  manager.ListenerWD - Method method----findElement
+19:37:24.542 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.542 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:37:24.542 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.542 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f40968f271e7af563b9aa2830a6b7a, findElement {using=css selector, value=a[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:62709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62709/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f40968f271e7af563b9aa2830a6b7a
+19:37:24.546 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.546 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1342.png
+19:37:24.569 [Test worker] INFO  tests.TestBase - Name of methodaddContactSuccessAllFieldsCSV
+19:37:24.571 [Test worker] INFO  tests.TestBase - Tests run with data: --->Contact(name=Sara, lastName=Parker, email=saraParker@gmail.com, address=NY, phone=553285576435, description=move)
+19:37:24.573 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/add']
+19:37:24.592 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:37:24.593 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (85f40968f271e7af563b9aa2830a6b7a)
+19:37:24.593 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.593 [Test worker] INFO  manager.ListenerWD - Method method----findElement
+19:37:24.593 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.593 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:37:24.593 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.594 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f40968f271e7af563b9aa2830a6b7a, findElement {using=css selector, value=a[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:62709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62709/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f40968f271e7af563b9aa2830a6b7a
+19:37:24.594 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.595 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1621.png
+19:37:24.615 [Test worker] INFO  tests.TestBase - Name of methodaddContactSuccessRequiredFields
+19:37:24.615 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/add']
+19:37:24.636 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:37:24.637 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (85f40968f271e7af563b9aa2830a6b7a)
+19:37:24.637 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.637 [Test worker] INFO  manager.ListenerWD - Method method----findElement
+19:37:24.637 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.637 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:37:24.637 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.637 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f40968f271e7af563b9aa2830a6b7a, findElement {using=css selector, value=a[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:62709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62709/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f40968f271e7af563b9aa2830a6b7a
+19:37:24.637 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.637 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1596.png
+19:37:24.669 [Test worker] INFO  tests.TestBase - Name of methodaddContactSuccessRequiredFields
+19:37:24.670 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/add']
+19:37:24.694 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:37:24.694 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (85f40968f271e7af563b9aa2830a6b7a)
+19:37:24.695 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.695 [Test worker] INFO  manager.ListenerWD - Method method----findElement
+19:37:24.695 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.695 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:37:24.696 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.699 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f40968f271e7af563b9aa2830a6b7a, findElement {using=css selector, value=a[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:62709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62709/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f40968f271e7af563b9aa2830a6b7a
+19:37:24.714 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.714 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1462.png
+19:37:24.725 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongAddress
+19:37:24.744 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/add']
+19:37:24.751 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:37:24.751 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (85f40968f271e7af563b9aa2830a6b7a)
+19:37:24.751 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.751 [Test worker] INFO  manager.ListenerWD - Method method----findElement
+19:37:24.751 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.751 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:37:24.751 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.752 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f40968f271e7af563b9aa2830a6b7a, findElement {using=css selector, value=a[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:62709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62709/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f40968f271e7af563b9aa2830a6b7a
+19:37:24.752 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.752 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1110.png
+19:37:24.771 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongEmail
+19:37:24.772 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/add']
+19:37:24.790 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:37:24.790 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (85f40968f271e7af563b9aa2830a6b7a)
+19:37:24.790 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.790 [Test worker] INFO  manager.ListenerWD - Method method----findElement
+19:37:24.790 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.790 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:37:24.790 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.790 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f40968f271e7af563b9aa2830a6b7a, findElement {using=css selector, value=a[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:62709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62709/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f40968f271e7af563b9aa2830a6b7a
+19:37:24.790 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.791 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1197.png
+19:37:24.808 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongLastName
+19:37:24.809 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/add']
+19:37:24.879 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:37:24.879 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (85f40968f271e7af563b9aa2830a6b7a)
+19:37:24.879 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.879 [Test worker] INFO  manager.ListenerWD - Method method----findElement
+19:37:24.879 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.879 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:37:24.879 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.880 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f40968f271e7af563b9aa2830a6b7a, findElement {using=css selector, value=a[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:62709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62709/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f40968f271e7af563b9aa2830a6b7a
+19:37:24.881 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.881 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1263.png
+19:37:24.898 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongName
+19:37:24.900 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/add']
+19:37:24.914 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:37:24.914 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (85f40968f271e7af563b9aa2830a6b7a)
+19:37:24.915 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.915 [Test worker] INFO  manager.ListenerWD - Method method----findElement
+19:37:24.915 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.915 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:37:24.915 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.916 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f40968f271e7af563b9aa2830a6b7a, findElement {using=css selector, value=a[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:62709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62709/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f40968f271e7af563b9aa2830a6b7a
+19:37:24.916 [Test worker] INFO  manager.ListenerWD - **********
+19:37:24.916 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1019.png
+19:37:24.938 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongPhone
+19:37:24.944 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/add']
+19:37:25.157 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:37:25.157 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (85f40968f271e7af563b9aa2830a6b7a)
+19:37:25.157 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.157 [Test worker] INFO  manager.ListenerWD - Method method----findElement
+19:37:25.157 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.157 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:37:25.157 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.157 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f40968f271e7af563b9aa2830a6b7a, findElement {using=css selector, value=a[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:62709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62709/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f40968f271e7af563b9aa2830a6b7a
+19:37:25.159 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.159 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1789.png
+19:37:25.174 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongPhone
+19:37:25.176 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/add']
+19:37:25.201 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:37:25.201 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (85f40968f271e7af563b9aa2830a6b7a)
+19:37:25.201 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.201 [Test worker] INFO  manager.ListenerWD - Method method----findElement
+19:37:25.201 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.201 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:37:25.201 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.202 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f40968f271e7af563b9aa2830a6b7a, findElement {using=css selector, value=a[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:62709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62709/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f40968f271e7af563b9aa2830a6b7a
+19:37:25.203 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.203 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1339.png
+19:37:25.249 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongPhone
+19:37:25.252 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/add']
+19:37:25.276 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:37:25.277 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (85f40968f271e7af563b9aa2830a6b7a)
+19:37:25.277 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.277 [Test worker] INFO  manager.ListenerWD - Method method----findElement
+19:37:25.277 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.277 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:37:25.277 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.277 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f40968f271e7af563b9aa2830a6b7a, findElement {using=css selector, value=a[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:62709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62709/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f40968f271e7af563b9aa2830a6b7a
+19:37:25.278 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.278 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1400.png
+19:37:25.317 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongPhone
+19:37:25.318 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/add']
+19:37:25.334 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:37:25.334 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (85f40968f271e7af563b9aa2830a6b7a)
+19:37:25.334 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.334 [Test worker] INFO  manager.ListenerWD - Method method----findElement
+19:37:25.334 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.335 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:37:25.336 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.336 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f40968f271e7af563b9aa2830a6b7a, findElement {using=css selector, value=a[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:62709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62709/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f40968f271e7af563b9aa2830a6b7a
+19:37:25.336 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.336 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1876.png
+19:37:25.355 [Test worker] INFO  tests.TestBase - Name of methodloginSuccess
+19:37:25.356 [Test worker] INFO  manager.ListenerWD - Before FindElementS --- By.xpath: //button[text()='Sign Out']
+19:37:25.411 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:37:25.411 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (85f40968f271e7af563b9aa2830a6b7a)
+19:37:25.411 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.411 [Test worker] INFO  manager.ListenerWD - Method method----findElements
+19:37:25.411 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.411 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:37:25.411 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.412 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f40968f271e7af563b9aa2830a6b7a, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:62709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62709/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f40968f271e7af563b9aa2830a6b7a
+19:37:25.412 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.412 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1430.png
+19:37:25.464 [Test worker] INFO  tests.TestBase - Name of methodregistrationRegisteredUser
+19:37:25.465 [Test worker] INFO  manager.ListenerWD - Before FindElementS --- By.xpath: //button[text()='Sign Out']
+19:37:25.502 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:37:25.503 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (85f40968f271e7af563b9aa2830a6b7a)
+19:37:25.508 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.508 [Test worker] INFO  manager.ListenerWD - Method method----findElements
+19:37:25.508 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.508 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:37:25.508 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.508 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f40968f271e7af563b9aa2830a6b7a, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:62709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62709/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f40968f271e7af563b9aa2830a6b7a
+19:37:25.509 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.509 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1030.png
+19:37:25.600 [Test worker] INFO  tests.TestBase - Name of methodremoveAllContacts
+19:37:25.601 [Test worker] INFO  manager.ListenerWD - Before FindElementS --- By.xpath: //button[text()='Sign Out']
+19:37:25.607 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:37:25.608 [Test worker] INFO  manager.ListenerWD - Object target---ChromeDriver: chrome on WINDOWS (85f40968f271e7af563b9aa2830a6b7a)
+19:37:25.608 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.608 [Test worker] INFO  manager.ListenerWD - Method method----findElements
+19:37:25.608 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.608 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:37:25.608 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.608 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f40968f271e7af563b9aa2830a6b7a, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:62709}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62709/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f40968f271e7af563b9aa2830a6b7a
+19:37:25.608 [Test worker] INFO  manager.ListenerWD - **********
+19:37:25.608 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1124.png

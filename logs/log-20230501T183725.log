@@ -1,0 +1,2 @@
+18:37:25.453 [Test worker] INFO  tests.TestBase - Start test 'loginWrongEmail'
+18:37:25.457 [Test worker] INFO  tests.TestBase - Test data --> email: 'qwertymail.com' & password 'Ff12345$'

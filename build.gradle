@@ -23,6 +23,13 @@ test {
     useTestNG()
 }
 
+task scoup(type: Test) {
+    useTestNG(){
+        suites 'src/test/resources/scoup.xml'
+    }
+}
+
+
 task qa(type:Test){
     useTestNG(){
         def suite = System.getProperty('suite', '')

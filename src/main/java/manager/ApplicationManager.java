@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.Browser;
 import org.openqa.selenium.support.events.EventFiringDecorator;
 import org.openqa.selenium.support.events.WebDriverListener;
@@ -33,7 +34,11 @@ public class ApplicationManager {
         } else if (browser.equals(Browser.EDGE.browserName())) {
             wd=new EdgeDriver();
             logger.info("All tests run in EDGE");
+        }else if (browser.equals(Browser.IE.browserName())) {
+            wd = new InternetExplorerDriver();
+            logger.info("All tests run in IE");
         }
+
 
         WebDriverListener listener = new ListenerWD();
         wd=new EventFiringDecorator<>(listener).decorate(wd);

@@ -1,0 +1,53 @@
+19:18:40.143 [Test worker] INFO  manager.ApplicationManager - All tests run in Chrome
+19:18:45.051 [Test worker] INFO  manager.ApplicationManager - The link--->https://telranedu.web.app/home
+19:18:45.236 [Test worker] INFO  tests.TestBase - Name of methodregistrationWrongPassword
+19:18:45.244 [Test worker] INFO  manager.ListenerWD - Before FindElementS --- By.xpath: //button[text()='Sign Out']
+19:18:50.324 [Test worker] INFO  manager.ListenerWD - After FindElement---By.xpath: //button[text()='Sign Out']
+19:18:50.331 [Test worker] INFO  manager.ListenerWD - List of elements 0
+19:18:50.354 [Test worker] INFO  tests.TestBase - Tests run with data: --->User{, email='pop@gmail.com', password='pop12345$'}
+19:18:50.356 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.cssSelector: a[href='/login']
+19:18:50.418 [Test worker] INFO  manager.ListenerWD - After FindElement---By.cssSelector: a[href='/login']
+19:18:50.447 [Test worker] INFO  manager.ListenerWD - Location of element---(1426, 34)
+19:18:50.556 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.name: email
+19:18:50.975 [Test worker] INFO  manager.ListenerWD - After FindElement---By.name: email
+19:18:51.024 [Test worker] INFO  manager.ListenerWD - Location of element---(568, 250)
+19:18:51.431 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.xpath: //input[last()]
+19:18:51.492 [Test worker] INFO  manager.ListenerWD - After FindElement---By.xpath: //input[last()]
+19:18:51.516 [Test worker] INFO  manager.ListenerWD - Location of element---(568, 320)
+19:18:51.935 [Test worker] INFO  manager.ListenerWD - Before FindElement --- By.xpath: //button[text()='Registration']
+19:18:51.992 [Test worker] INFO  manager.ListenerWD - After FindElement---By.xpath: //button[text()='Registration']
+19:18:52.012 [Test worker] INFO  manager.ListenerWD - Location of element---(818, 390)
+19:18:52.156 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:18:52.158 [Test worker] INFO  manager.ListenerWD - Object target---org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@17dad32f
+19:18:52.158 [Test worker] INFO  manager.ListenerWD - **********
+19:18:52.159 [Test worker] INFO  manager.ListenerWD - Method method----alert
+19:18:52.159 [Test worker] INFO  manager.ListenerWD - **********
+19:18:52.160 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:18:52.161 [Test worker] INFO  manager.ListenerWD - **********
+19:18:52.165 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa763f6f65bf5b65f82531145ed5611a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61414}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61414/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa763f6f65bf5b65f82531145ed5611a
+19:18:52.166 [Test worker] INFO  manager.ListenerWD - **********
+19:18:52.178 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1859.png
+19:18:52.803 [Test worker] INFO  manager.ListenerWD - Huston, we have a problem
+19:18:52.803 [Test worker] INFO  manager.ListenerWD - Object target---org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@485caa8f
+19:18:52.804 [Test worker] INFO  manager.ListenerWD - **********
+19:18:52.807 [Test worker] INFO  manager.ListenerWD - Method method----alert
+19:18:52.808 [Test worker] INFO  manager.ListenerWD - **********
+19:18:52.810 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----java.lang.reflect.InvocationTargetException
+19:18:52.810 [Test worker] INFO  manager.ListenerWD - **********
+19:18:52.811 [Test worker] INFO  manager.ListenerWD - InvocationTargetException----org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa763f6f65bf5b65f82531145ed5611a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61414}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61414/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa763f6f65bf5b65f82531145ed5611a
+19:18:52.812 [Test worker] INFO  manager.ListenerWD - **********
+19:18:52.812 [Test worker] INFO  manager.ListenerWD - Screen error is---src/test/screenshots/screen1492.png

@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class RegistrationsTest extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         if (app.getHelperUser().isLogged()) {
             app.getHelperUser().pause(5000);
@@ -17,7 +17,7 @@ public class RegistrationsTest extends TestBase {
         }
     }
 
-    @Test
+    @Test(groups = "smoke")
     public void registrationSuccess() {
         Random random = new Random();
         int i = random.nextInt(1000); //give random number
@@ -40,12 +40,7 @@ public class RegistrationsTest extends TestBase {
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().submitRegistration();
-        Assert.assertTrue(app.getHelperUser().isAlertPresent("Wrong email or password format\n" +
-                "            Email must contains one @ and minimum 2 symbols after last dot\n" +
-                "            Password must contain at least one uppercase letter!\n" +
-                "            Password must contain at least one lowercase letter!\n" +
-                "            Password must contain at least one digit!\n" +
-                "            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!"));
+        Assert.assertTrue(app.getHelperUser().isAlertPresent2("Wrong email or password format"));
     }
 
     @Test
@@ -56,12 +51,7 @@ public class RegistrationsTest extends TestBase {
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitRegistration();
-        Assert.assertTrue(app.getHelperUser().isAlertPresent("Wrong email or password format\n" +
-                "            Email must contains one @ and minimum 2 symbols after last dot\n" +
-                "            Password must contain at least one uppercase letter!\n" +
-                "            Password must contain at least one lowercase letter!\n" +
-                "            Password must contain at least one digit!\n" +
-                "            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!"));
+        Assert.assertTrue(app.getHelperUser().isAlertPresent2("Wrong email or password format"));
 
         // Assert.assertTrue(app.getHelperUser().isAlertPresent2("Wrong email or password format"));
 

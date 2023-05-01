@@ -13,7 +13,7 @@ import java.util.Random;
 
 public class AddNewContactTests extends TestBase {
 
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void preConditions(){
         if(!app.getHelperUser().isLogged()){
             app.getHelperUser().login(new User().withEmail("qwerty@mail.com").withPassword("Ff12345$"));
@@ -48,7 +48,7 @@ public class AddNewContactTests extends TestBase {
         Assert.assertTrue(app.helperContact().isContactAddedByPhone(contact.getPhone()));
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void addNewContactWrongName(){
         Contact contact = Contact.builder()
                 .name("")
