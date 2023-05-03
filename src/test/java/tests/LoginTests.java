@@ -4,10 +4,8 @@ import manager.DataProviderUser;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
 
-import java.util.*;
+import org.testng.annotations.Test;
 
 public class LoginTests extends TestBase{
 

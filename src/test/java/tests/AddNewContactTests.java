@@ -1,12 +1,12 @@
 package tests;
 
 import manager.DataProviderContact;
-import manager.DataProviderUser;
+
 import models.Contact;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.DataProvider;
+
 import org.testng.annotations.Test;
 
 import java.util.Random;

@@ -4,7 +4,6 @@ import models.Contact;
 import org.testng.annotations.DataProvider;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -37,7 +36,7 @@ public class DataProviderContact {
         return list.iterator();
     }
     @DataProvider
-    public Iterator<Object[]> contactWrongPhone() {
+    public static Iterator<Object[]> contactWrongPhone() {
         List<Object[]> list = new ArrayList<>();
         list.add(new Object[]{Contact.builder()
                 .name("John")

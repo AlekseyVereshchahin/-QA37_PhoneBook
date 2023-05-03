@@ -21,7 +21,7 @@ public class RegistrationsTest extends TestBase {
     public void registrationSuccess() {
         Random random = new Random();
         int i = random.nextInt(1000); //give random number
-        int z = (int) (System.currentTimeMillis() / 1000) / 3600; //give random number
+      //  int z = (int) (System.currentTimeMillis() / 1000) / 3600; //give random number
 
         User user = new User().withEmail("pop" + i + "@gmail.com").withPassword("Pop12345$");
 
