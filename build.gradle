@@ -27,7 +27,6 @@ task scoup(type: Test) {
     useTestNG(){
         suites 'src/test/resources/scoup.xml'
     }
-
 }
 
 task team(type: Test){
