@@ -1,0 +1,4 @@
+19:09:31.179 [Test worker] INFO  tests.TestBase - Name of methodloginWrongEmail
+19:09:31.205 [Test worker] INFO  tests.TestBase - Name of methodregistrationSuccess
+19:09:31.212 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongName
+19:09:31.214 [Test worker] INFO  tests.TestBase - Name of methodremoveFirstContact
