@@ -1,0 +1,15 @@
+19:49:26.380 [Test worker] INFO  tests.TestBase - Name of methodaddContactSuccessAllFields
+19:49:26.459 [Test worker] INFO  tests.TestBase - Name of methodaddContactSuccessAllFields
+19:49:26.467 [Test worker] INFO  tests.TestBase - Name of methodaddContactSuccessAllFieldsCSV
+19:49:26.469 [Test worker] INFO  tests.TestBase - Name of methodaddContactSuccessAllFieldsCSV
+19:49:26.473 [Test worker] INFO  tests.TestBase - Name of methodaddContactSuccessAllFieldsCSV
+19:49:26.524 [Test worker] INFO  tests.TestBase - Name of methodaddContactSuccessRequiredFields
+19:49:26.532 [Test worker] INFO  tests.TestBase - Name of methodaddContactSuccessRequiredFields
+19:49:26.541 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongAddress
+19:49:26.553 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongEmail
+19:49:26.555 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongLastName
+19:49:26.557 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongName
+19:49:26.562 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongPhone
+19:49:26.565 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongPhone
+19:49:26.568 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongPhone
+19:49:26.571 [Test worker] INFO  tests.TestBase - Name of methodaddNewContactWrongPhone

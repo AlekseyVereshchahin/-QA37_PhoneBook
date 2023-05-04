@@ -18,7 +18,6 @@ public class ApplicationManager {
     WebDriver wd;
     HelperUser helperUser;
     HelperContact helperContact;
-
     String browser;
 
     public ApplicationManager(String browser) {
